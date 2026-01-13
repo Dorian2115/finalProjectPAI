@@ -82,7 +82,7 @@ następujące kroki:
 1. Otwórz terminal i przejdź do katalogu `laravel-app`.
 2. Uruchom skrypt `php.bat` znajdujący się w folderze `php`:
    ```bash
-   php.bat artisan serve
+   php.exe artisan serve
    ```
 3. Aplikacja będzie dostępna pod adresem `http://localhost:8000`.
 
