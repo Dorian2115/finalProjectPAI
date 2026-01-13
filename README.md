@@ -75,27 +75,25 @@ Jeśli instalujesz projekt po raz pierwszy lub na nowym komputerze:
 
 ### Windows
 
-Aby uruchomić aplikację na systemie Windows, upewnij się, że masz zainstalowane
-PHP. Jeśli nie masz PHP, możesz skorzystać z folderu `php` w projekcie. Wykonaj
-następujące kroki:
+Aby uruchomić aplikację na systemie Windows, w przypadku jeśli nie masz PHP,
+możesz skorzystać z folderu `php` w projekcie. Wykonaj następujące kroki:
 
 1. Otwórz terminal i przejdź do katalogu `laravel-app`.
-2. Uruchom skrypt `php.bat` znajdujący się w folderze `php`:
+2. Uruchom plik `php.exe` znajdujący się w folderze `php`:
    ```bash
-   php.bat artisan serve
+   ../php/php.exe artisan serve
    ```
 3. Aplikacja będzie dostępna pod adresem `http://localhost:8000`.
 
 ### Linux
 
-Aby uruchomić aplikację na systemie Linux, upewnij się, że masz zainstalowane
-PHP. Jeśli nie masz PHP, możesz skorzystać z folderu `php` w projekcie. Wykonaj
-następujące kroki:
+Aby uruchomić aplikację na systemie Linux, w przypadku jeśli nie masz PHP,
+możesz skorzystać z folderu `php` w projekcie. Wykonaj następujące kroki:
 
 1. Otwórz terminal i przejdź do katalogu `laravel-app`.
 2. Uruchom skrypt `php` znajdujący się w folderze `php`:
    ```bash
-   ./php artisan serve
+   ../php/php artisan serve
    ```
 3. Aplikacja będzie dostępna pod adresem `http://localhost:8000`.
 
