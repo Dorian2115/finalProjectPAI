@@ -43,14 +43,6 @@ Wersje programów wykorzystane do tworzenia aplikacji:
 
 ## Uruchomienie
 
-### Dla gotowego projektu (wszystko już skonfigurowane):
-
-1. Uruchom serwer deweloperski:
-   ```bash
-   php artisan serve
-   ```
-2. Otwórz aplikację w przeglądarce pod adresem: `http://localhost:8000`
-
 ### Dla nowej instalacji (od zera):
 
 Jeśli instalujesz projekt po raz pierwszy lub na nowym komputerze:
@@ -80,6 +72,32 @@ Jeśli instalujesz projekt po raz pierwszy lub na nowym komputerze:
    ```bash
    php artisan serve
    ```
+
+### Windows
+
+Aby uruchomić aplikację na systemie Windows, upewnij się, że masz zainstalowane
+PHP. Jeśli nie masz PHP, możesz skorzystać z folderu `php` w projekcie. Wykonaj
+następujące kroki:
+
+1. Otwórz terminal i przejdź do katalogu `laravel-app`.
+2. Uruchom skrypt `php.bat` znajdujący się w folderze `php`:
+   ```bash
+   php.bat artisan serve
+   ```
+3. Aplikacja będzie dostępna pod adresem `http://localhost:8000`.
+
+### Linux
+
+Aby uruchomić aplikację na systemie Linux, upewnij się, że masz zainstalowane
+PHP. Jeśli nie masz PHP, możesz skorzystać z folderu `php` w projekcie. Wykonaj
+następujące kroki:
+
+1. Otwórz terminal i przejdź do katalogu `laravel-app`.
+2. Uruchom skrypt `php` znajdujący się w folderze `php`:
+   ```bash
+   ./php artisan serve
+   ```
+3. Aplikacja będzie dostępna pod adresem `http://localhost:8000`.
 
 ## Uwagi
 
