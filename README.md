@@ -81,11 +81,8 @@ możesz skorzystać z folderu `php` w projekcie. Wykonaj następujące kroki:
 1. Otwórz terminal i przejdź do katalogu `laravel-app`.
 2. Uruchom plik `php.exe` znajdujący się w folderze `php`:
    ```bash
-<<<<<<< HEAD
    ../php/php.exe artisan serve
-=======
    php.exe artisan serve
->>>>>>> b2060367a96c57736dada59e1212c5c9539e4a69
    ```
 3. Aplikacja będzie dostępna pod adresem `http://localhost:8000`.
 
