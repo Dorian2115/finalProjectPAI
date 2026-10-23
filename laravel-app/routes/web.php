@@ -23,7 +23,6 @@ Route::get('/register', [RegisterController::class, 'index'])->name('register');
 Route::post('/register', [RegisterController::class, 'store'])->name('register.submit');
 
 Route::middleware('auth')->group(function () {
-    // OpenLibrary routes MUST be first (before {book} parameter routes)
     Route::get('/books/search', [OpenLibraryController::class, 'search'])->name('books.search');
     Route::get('/books/search/api', [OpenLibraryController::class, 'searchApi'])->name('books.search.api');
     Route::post('/books/import', [OpenLibraryController::class, 'import'])->name('books.import');
